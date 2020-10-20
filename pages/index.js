@@ -11,7 +11,7 @@ export default function Home () {
 
         <main className={ styles.main }>
           <h1 className={ styles.title }>
-            Welcome to <a href="https://nextjs.org">Diamond Luxe Mobile Detailing</a>
+            Welcome to Diamond Luxe Mobile Detailing
           </h1>
           <p>This page is currently under construction!!</p>
         </main>

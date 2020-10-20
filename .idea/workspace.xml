@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="initial commit to get started on projects">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +78,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603227782653</updated>
       <workItem from="1603227788699" duration="1345000" />
-      <workItem from="1603236240717" duration="514000" />
+      <workItem from="1603236240717" duration="780000" />
     </task>
+    <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
+      <created>1603237214048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603237214048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit to get started on projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit to get started on projects" />
+    <MESSAGE value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
