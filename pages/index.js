@@ -10,6 +10,9 @@ export default function Home () {
         </Head>
 
         <main className={ styles.main }>
+          <header>
+
+          </header>
           <h1 className={ styles.title }>
             Welcome to Diamond Luxe Mobile Detailing
           </h1>
