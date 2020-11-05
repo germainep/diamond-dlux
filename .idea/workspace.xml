@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +35,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.13.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.0.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="js.ns.project" value="true" />
+    <property name="js.ns.project.flavor" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,7 +56,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/Cellar/node/13.8.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RemoteSynchronizer">
@@ -78,7 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603227782653</updated>
       <workItem from="1603227788699" duration="1345000" />
-      <workItem from="1603236240717" duration="780000" />
+      <workItem from="1603236240717" duration="936000" />
+      <workItem from="1604540257684" duration="40000" />
+      <workItem from="1604540343668" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -87,7 +88,42 @@
       <option name="project" value="LOCAL" />
       <updated>1603237214048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed Next.js link on the Header">
+      <created>1603237486294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603237486294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed files from git that were not needed">
+      <created>1604541497755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604541497755</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added dependencies and renamed files to use stylus for style sheets">
+      <created>1604541571233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604541571233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added dependencies and renamed files to use stylus for style sheets">
+      <created>1604541642483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604541642483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added dependencies and renamed files to use stylus for style sheets">
+      <created>1604541718917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604541718917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +144,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit to get started on projects" />
     <MESSAGE value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
+    <MESSAGE value="Removed Next.js link on the Header" />
+    <MESSAGE value="Removed files from git that were not needed" />
+    <MESSAGE value="Added dependencies and renamed files to use stylus for style sheets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies and renamed files to use stylus for style sheets" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
