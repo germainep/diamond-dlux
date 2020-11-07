@@ -9,10 +9,13 @@ export default function Home () {
           <link rel="icon" href="/favicon.ico"/>
         </Head>
 
-        <main className={ styles.main }>
-          <header>
+        <header className={ styles.header }>
+          <a>Home</a>
+          <a href="">About Us</a>
+          <a href="">Schedule an Appointment</a>
+        </header>
 
-          </header>
+        <main className={ styles.main }>
           <h1 className={ styles.title }>
             Welcome to Diamond Luxe Mobile Detailing
           </h1>

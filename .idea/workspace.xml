@@ -4,6 +4,9 @@
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="RemoteSynchronizer">
     <option name="targetMappings">
       <list>
@@ -83,7 +91,9 @@
       <workItem from="1603236240717" duration="936000" />
       <workItem from="1604540257684" duration="40000" />
       <workItem from="1604540343668" duration="1287000" />
-      <workItem from="1604542832833" duration="405000" />
+      <workItem from="1604542832833" duration="446000" />
+      <workItem from="1604763778590" duration="232000" />
+      <workItem from="1604764064184" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -134,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604543015642</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Started the header feature.">
+      <created>1604543316629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604543316629</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +175,8 @@
     <MESSAGE value="Removed Next.js link on the Header" />
     <MESSAGE value="Removed files from git that were not needed" />
     <MESSAGE value="Added dependencies and renamed files to use stylus for style sheets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies and renamed files to use stylus for style sheets" />
+    <MESSAGE value="Started the header feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the header feature." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
