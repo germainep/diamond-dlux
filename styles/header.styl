@@ -1,0 +1,28 @@
+@import globals
+
+.header
+    width 100%
+    display: grid
+    background-color primary-color
+    grid-auto-flow column
+    grid-gap 30px
+    padding 0 20px 0 20px
+    color #FFFFFF
+    height: 100px
+
+.logo
+    fill #fff
+
+.nav
+    display grid
+    grid-auto-flow column
+    align-content center
+    justify-content end
+    padding 0 30px 0 30px
+
+    a
+        padding 0 30px 0 30px
+        font-size 20px
+
+        &:hover
+            color shade(#fff, 35)

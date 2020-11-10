@@ -1,15 +1,22 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Header from '../components/common/header/Header'
+import Hero from '../components/common/Hero'
+
 import styles from '../styles/Home.module.styl'
 
 export default function Home () {
   return (
       <div className={ styles.container }>
         <Head>
-          <title>Diamond Luxe</title>
+          <title>Diamond Luxe | Home</title>
           <link rel="icon" href="/favicon.ico"/>
         </Head>
 
+        <Header/>
+
         <main className={ styles.main }>
+          <Hero className="hero"/>
           <h1 className={ styles.title }>
             Welcome to Diamond Luxe Mobile Detailing
           </h1>
