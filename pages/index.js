@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Header from '../components/common/header/Header'
-import Hero from '../components/common/Hero'
+import Image from 'next/image'
+
+import { Hero, Header, Card } from '../components/common'
 
 import styles from '../styles/Home.module.styl'
 
@@ -11,16 +11,22 @@ export default function Home () {
         <Head>
           <title>Diamond Luxe | Home</title>
           <link rel="icon" href="/favicon.ico"/>
+          <link rel="stylesheet" href="https://use.typekit.net/uzk1jip.css"/>
         </Head>
 
         <Header/>
 
         <main className={ styles.main }>
-          <Hero className="hero"/>
+          <Hero/>
           <h1 className={ styles.title }>
-            Welcome to Diamond Luxe Mobile Detailing
+            Great detailing where and when you need it
           </h1>
-          <p>This page is currently under construction!!</p>
+          <p>Check out how will can put the luxe back into your daily driver!!</p>
+          <section>
+            <Card imagePath='/imgs/Cars.jpeg' title="Personal Vechiles"/>
+            <Card imagePath='/imgs/Commercial.jpeg' title="Commercial Vechiles"/>
+          </section>
+
         </main>
         <footer className={ styles.footer }>
           <a
@@ -29,7 +35,6 @@ export default function Home () {
               rel="noopener noreferrer"
           >
             Powered by{ ' ' }
-            <img src="/vercel.svg" alt="Vercel Logo" className={ styles.logo }/>
           </a>
         </footer>
       </div>
