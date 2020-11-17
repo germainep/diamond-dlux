@@ -1,4 +1,4 @@
-import styles from '../../styles/Hero.styl'
+import styles from '../../styles/Hero.module.styl'
 
 const Hero = () => {
   return (

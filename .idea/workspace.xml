@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Card.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Button.module.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Card.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Hero.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Hero.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.styl" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Header.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Hero.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Hero.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/Cellar/node/13.8.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -122,6 +124,12 @@
       <workItem from="1604764064184" duration="2598000" />
       <workItem from="1604952488849" duration="10597000" />
       <workItem from="1605027114676" duration="13312000" />
+      <workItem from="1605053186240" duration="101000" />
+      <workItem from="1605130424410" duration="595000" />
+      <workItem from="1605390445361" duration="204000" />
+      <workItem from="1605390698357" duration="15714000" />
+      <workItem from="1605573187847" duration="36000" />
+      <workItem from="1605573741619" duration="4057000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -214,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604968222245</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section">
+      <created>1605053282703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605053282703</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +258,8 @@
     <MESSAGE value="Setup global styles for primary colors.&#10;&#10;Styled the header and and the background for the Hero section" />
     <MESSAGE value="added the logo svg and favicon for the page." />
     <MESSAGE value="Completed the header." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the header." />
+    <MESSAGE value="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

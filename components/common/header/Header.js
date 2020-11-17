@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../../../styles/Header.styl'
+import styles from '../../../styles/Header.module.styl'
 import Logo from '../Logo/Logo'
 
 const Header = () => {
