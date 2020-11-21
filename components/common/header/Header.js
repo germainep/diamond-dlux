@@ -5,9 +5,9 @@ import Logo from '../Logo/Logo'
 const Header = () => {
   return (
       <header className={ styles.header }>
-        <div>
+        <div className={ styles.logo }>
           <Link href='/'>
-            <a><Logo className={ styles.logo } width={ 100 }/></a>
+            <a><Logo className={ styles.logocontent } width={ 100 }/></a>
           </Link>
         </div>
         <div className={ styles.nav }>
