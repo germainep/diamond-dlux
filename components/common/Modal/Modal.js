@@ -3,17 +3,32 @@ import { createPortal } from 'react-dom'
 import Button from '../../common/Button'
 import { useState } from 'react'
 import styles from '../../../styles/Modal.module.styl'
+import axios from 'axios'
 
 const Modal = ( { isVisible, hideModal } ) => {
   const vehicleType = [ 'Car/SUV', 'Tractor Trailer', 'Fleet Vehicles' ]
   const locations = [ 'Siler City', 'Asheboro', 'Greensboro Triad', 'Danville VA' ]
   const [ contact, setContact ] = useState(
       { name: '', email: '', phone: '', vehicleType: '', location: '' })
-
+  const [ status, setStatus ] = useState({})
   const changeHandler = event => {
     setContact({ ...contact, [event.target.name]: event.target.value })
   }
-  const handleSubmit = () => {
+  const handleSubmit = async ( event ) => {
+    event.preventDefault()
+    axios({
+            method: 'post',
+            url: 'http://localhost:3000/api/mailer',
+            data: contact
+          })
+        .then(res => {
+          if (res.status) {
+            setStatus({ success: true })
+          }
+        })
+        .catch(err => {
+          console.error(err.message ? err.message : 'Unknown error')
+        })
     console.log(contact)
   }
   return isVisible ? createPortal(

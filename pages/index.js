@@ -24,10 +24,10 @@ export default function Home () {
         <Hero/>
 
         <main className={ styles.main }>
-          <h1 className={ styles.title }>
+          <h3 className={ styles.title }>
             Great detailing where and when you need it
-          </h1>
-          <p>Check out how will can put the luxe back into your daily driver!!</p>
+          </h3>
+          <p>Check out how we will can put the luxe back into your daily driver!!</p>
           <section className={ styles.grid }>
             <Card imagePath='/imgs/Cars.jpeg'
                   alt='Personal vehicles'
