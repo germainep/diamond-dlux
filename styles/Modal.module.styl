@@ -36,29 +36,24 @@
 form
   display grid
   grid-template-columns[labels] auto[controls] 1fr
+  grid-auto-flow row
+  grid-gap 2em
+  padding 1.25em
+  width 80%
 
-[
-buttons
-]
-1fr
-grid-auto-flow row
-grid-gap 2em
-padding 1.25em
-width 80%
+  label
+    grid-column labels
+    grid-row auto
+    justify-content center
 
-label
-  grid-column labels
-  grid-row auto
-  justify-content center
-
-input,
-select
-  grid-column controls
-  grid-row auto
-  height 2em
-  border none
-  border-bottom 1px solid primary-color
-  margin .5em
+  input,
+  select
+    grid-column controls
+    grid-row auto
+    height 2em
+    border none
+    border-bottom 1px solid primary-color
+    margin .5em
 
 .inputButtons
   width 100%
