@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Button from '../common/Button'
 import styles from '../../styles/Card.module.styl'
 
 const Card = ( props ) => {
@@ -12,16 +13,15 @@ const Card = ( props ) => {
               alt={ props.alt }
               width={ 621 }
               height={ 350 }
-
           />
         </div>
-        <div className={ styles.textbox }>
-          <h3 className={ styles.title }>{ props.title }</h3>
-          <p className={ styles.description }>{ props.description }</p>
-          </div>
+        <div className={ styles.textBox }>
+          <h3>{ props.title }</h3>
+          <p>{ props.description }</p>
         </div>
+        <Button onClick={ props.openModal } text='Scheduled An Appointment'/>
+      </div>
   )
-
 }
 
 export default Card

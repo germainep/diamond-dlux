@@ -1,8 +1,9 @@
 import styles from '../../styles/Button.module.styl'
 
 const Button = ( props ) => {
+
   return (
-      <div className={ styles.body }>
+      <div className={ styles.button } onClick={ props.onClick }>
         <p>{ props.text }</p>
       </div>
   )

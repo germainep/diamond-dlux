@@ -1,14 +1,7 @@
-.modaloverlay
-  background-color #99999
-  height 100vh
-  left 0
-  opacity .5
-  position fixed
-  top 0
-  width 100vw
-  z-index 500
+@import globals
 
-.modalwrapper
+
+.modalWrapper
   display flex
   justify-content center
   left 0
@@ -24,11 +17,24 @@
   align-items center
   background-color #fff
   border-radius .25rem
+  border 1px solid black
   display flex
   flex-direction column
   margin 1.875rem
-  max-width 500px
+  max-width 700px
   position relative
+  padding 1em
+  opacity 100
+  z-index 4000
+
+.modalOverlay
+  background-color rgba(primary-color, 90)
+  height 100vh
+  left 0
+  position fixed
+  opacity .9
+  top 0
+  width 100vw
   z-index 100
 
 //TODO: more sytles required for the modal

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/Modal/useModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Modal.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Modal/useModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/useModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Header.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Card.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Modal.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Modal.module.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +141,8 @@
       <workItem from="1605573741619" duration="5188000" />
       <workItem from="1605893999018" duration="563000" />
       <workItem from="1605974006192" duration="250000" />
-      <workItem from="1605975059765" duration="1526000" />
+      <workItem from="1605975059765" duration="9577000" />
+      <workItem from="1606003480772" duration="4860000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -244,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605579105669</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons">
+      <created>1605976854569</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605976854569</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +287,8 @@
     <MESSAGE value="Completed the header." />
     <MESSAGE value="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section" />
     <MESSAGE value="Daily Commit.&#10;&#10;completed the card section except for the copy for each card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daily Commit.&#10;&#10;completed the card section except for the copy for each card" />
+    <MESSAGE value="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

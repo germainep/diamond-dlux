@@ -5,11 +5,9 @@ const useModal = () => {
 
   function toggleModal () {
     setIsVisible(!isVisible)
+    console.log(isVisible)
   }
 
-  return {
-    isVisible,
-    toggleModal
-  }
+  return { isVisible, toggleModal }
 }
 export default useModal
