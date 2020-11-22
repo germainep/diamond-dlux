@@ -1,19 +1,53 @@
 primary-color = #112b4e
 secondary-color = #364b68
 accent-color = #7d1b11
-font-size = 16px
+$shadows = .25rem .75rem 1rem rgba(#ccc, 70)
+$font-size = 16px
+
 html,
 body
   padding 0
   margin 0
-  font-family -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family cormorant-garamond, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
-  font-size font-size
+  font-size $font-size
+  font-weight 300
+
 
 a
   color inherit
   text-decoration none
+  font-family "quicksand", sans-serif
 
 *
   box-sizing border-box
 
+h1,
+h2,
+h3,
+h4,
+.button
+  font-family "quicksand", sans-serif
+  letter-spacing 1px
+  word-spacing .01rem
+
+.grid
+  display: grid;
+  grid-auto-rows minmax(200px, auto)
+  grid-gap .75em
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+@media screen and (min-width 1040px)
+  .grid
+    grid-template-columns repeat(3, 1fr)
+
+
+@media screen and (max-width 1039px)
+  .grid
+    grid-template-columns repeat(2, 1fr)
+
+@media screen and (max-width 660px)
+  .grid
+    grid-template-columns repeat(1, 1fr)

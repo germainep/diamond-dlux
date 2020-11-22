@@ -1,13 +1,13 @@
 import Link from 'next/link'
-import styles from '../../../styles/header.styl'
-import LogoComponent from '../Logo/Logo'
+import styles from '../../../styles/Header.module.styl'
+import Logo from '../Logo/Logo'
 
-export default function Header () {
+const Header = () => {
   return (
       <header className={ styles.header }>
-        <div>
+        <div className={ styles.logo }>
           <Link href='/'>
-            <a><LogoComponent className={ styles.logo } width={ 100 }/></a>
+            <a><Logo className={ styles.logocontent } width={ 100 }/></a>
           </Link>
         </div>
         <div className={ styles.nav }>
@@ -21,3 +21,5 @@ export default function Header () {
       </header>
   )
 }
+
+export default Header
