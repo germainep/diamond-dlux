@@ -16,20 +16,12 @@ const Modal = ( { isVisible, hideModal } ) => {
   }
   const handleSubmit = async ( event ) => {
     event.preventDefault()
-    axios({
-            method: 'post',
-            url: 'http://localhost:3000/api/mailer',
-            data: contact
-          })
-        .then(res => {
-          if (res.status) {
-            setStatus({ success: true })
-          }
-        })
-        .catch(err => {
-          console.error(err.message ? err.message : 'Unknown error')
-        })
-    console.log(contact)
+    try {
+      const response = await axios.post('/api/mailer', { contact })
+      console.log(response)
+    } catch (error) {
+      console.error(error)
+    }
   }
   return isVisible ? createPortal(
       <React.Fragment>
