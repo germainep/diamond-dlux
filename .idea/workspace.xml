@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="" />
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1606065163" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/LandingPage" />
+                    <option name="lastUsedInstant" value="1606065162" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -36,11 +77,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.0.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="js.ns.project" value="true" />
     <property name="js.ns.project.flavor" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/imgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/Cellar/node/13.8.0/bin/node" />
@@ -56,8 +97,21 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/Cellar/node/13.8.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/imgs" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/imgs" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/components/common" />
+      <recent name="$PROJECT_DIR$/components/common/header" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
   </component>
   <component name="RemoteSynchronizer">
     <option name="targetMappings">
@@ -67,6 +121,16 @@
         </TargetMappings>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:3000" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,6 +144,23 @@
       <workItem from="1603236240717" duration="936000" />
       <workItem from="1604540257684" duration="40000" />
       <workItem from="1604540343668" duration="1287000" />
+      <workItem from="1604542832833" duration="446000" />
+      <workItem from="1604763778590" duration="232000" />
+      <workItem from="1604764064184" duration="2598000" />
+      <workItem from="1604952488849" duration="10597000" />
+      <workItem from="1605027114676" duration="13312000" />
+      <workItem from="1605053186240" duration="101000" />
+      <workItem from="1605130424410" duration="595000" />
+      <workItem from="1605390445361" duration="204000" />
+      <workItem from="1605390698357" duration="15714000" />
+      <workItem from="1605573187847" duration="36000" />
+      <workItem from="1605573741619" duration="5188000" />
+      <workItem from="1605893999018" duration="563000" />
+      <workItem from="1605974006192" duration="250000" />
+      <workItem from="1605975059765" duration="9577000" />
+      <workItem from="1606003480772" duration="6829000" />
+      <workItem from="1606054529165" duration="19378000" />
+      <workItem from="1606084678035" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -123,7 +204,105 @@
       <option name="project" value="LOCAL" />
       <updated>1604541718917</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added dependencies and renamed files to use stylus for style sheets">
+      <created>1604543015642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604543015642</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Started the header feature.">
+      <created>1604543316629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604543316629</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Basic setup for the header &#10;&#10;moved next config to the correct place">
+      <created>1604764771305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604764771305</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Setup global styles for primary colors.&#10;&#10;Styled the header and and the background for the Hero section">
+      <created>1604967037186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604967037186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added the logo svg and favicon for the page.">
+      <created>1604967100890</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604967100890</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Completed the header.">
+      <created>1604967135785</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604967135785</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed the header.">
+      <created>1604968222245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604968222245</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section">
+      <created>1605053282703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605053282703</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Daily Commit.&#10;&#10;completed the card section except for the copy for each card">
+      <created>1605579105669</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605579105669</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons">
+      <created>1605976854569</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605976854569</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Modal implementation completed">
+      <created>1606010570826</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606010570826</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Completed styling and form &#10;&#10;TODO: form submission">
+      <created>1606064947870</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064947870</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixed a typographical error in stylesheets&#10;&#10;TODO: form submission">
+      <created>1606065063204</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606065063204</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission">
+      <created>1606080348878</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606080348878</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +326,19 @@
     <MESSAGE value="Removed Next.js link on the Header" />
     <MESSAGE value="Removed files from git that were not needed" />
     <MESSAGE value="Added dependencies and renamed files to use stylus for style sheets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies and renamed files to use stylus for style sheets" />
+    <MESSAGE value="Started the header feature." />
+    <MESSAGE value="Basic setup for the header &#10;&#10;moved next config to the correct place" />
+    <MESSAGE value="Setup global styles for primary colors.&#10;&#10;Styled the header and and the background for the Hero section" />
+    <MESSAGE value="added the logo svg and favicon for the page." />
+    <MESSAGE value="Completed the header." />
+    <MESSAGE value="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section" />
+    <MESSAGE value="Daily Commit.&#10;&#10;completed the card section except for the copy for each card" />
+    <MESSAGE value="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons" />
+    <MESSAGE value="Modal implementation completed" />
+    <MESSAGE value="Completed styling and form &#10;&#10;TODO: form submission" />
+    <MESSAGE value="fixed a typographical error in stylesheets&#10;&#10;TODO: form submission" />
+    <MESSAGE value="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
