@@ -11,20 +11,12 @@ export default function Home () {
       <div className={ styles.container }>
         <Head>
           <html lang='en'/>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR8BW1ZEMC"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-
-            gtag('config', 'G-BR8BW1ZEMC');
-          </script>
           <title>Diamond Luxe | Home</title>
           <link rel="preload"/>
           <link rel="icon" href="/favicon.ico"/>
           <link rel="stylesheet" href="https://use.typekit.net/uzk1jip.css"/>
           <meta name="description"
-                content="Diamond Luxe Mobile Detailing. Cars, Trucks, SUV, Tractor Tarilers, and Fleet vehciles. Get you vehicle washed when and where you want. Now serving: Siler City, Asheboro, Greensbor Triad, and Danville, VA."/>
+                content="Diamond Luxe Mobile Detailing. Cars, Trucks, SUV, Tractor Trailers, and Fleet vehicles. Get you vehicle washed when and where you want. Now serving: Siler City, Asheboro, Greensbor Triad, and Danville, VA."/>
           <meta name="keywords" content="Mobile Car Washing, Tractor Trailer Washing"/>
         </Head>
 
