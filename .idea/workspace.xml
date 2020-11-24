@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diamond-dlux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diamond-dlux.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Modal.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Modal.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1606087137" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
                     <option name="lastUsedInstant" value="1606065163" />
@@ -161,6 +173,8 @@
       <workItem from="1606003480772" duration="6829000" />
       <workItem from="1606054529165" duration="19378000" />
       <workItem from="1606084678035" duration="2186000" />
+      <workItem from="1606086936088" duration="146000" />
+      <workItem from="1606176343880" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -302,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606080348878</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="completed the form submission api ready to push to production">
+      <created>1606086974991</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606086974991</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +359,8 @@
     <MESSAGE value="Completed styling and form &#10;&#10;TODO: form submission" />
     <MESSAGE value="fixed a typographical error in stylesheets&#10;&#10;TODO: form submission" />
     <MESSAGE value="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission" />
+    <MESSAGE value="completed the form submission api ready to push to production" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed the form submission api ready to push to production" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

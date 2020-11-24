@@ -1,5 +1,4 @@
 import nodemailer from 'nodemailer'
-import { req, res } from 'express'
 
 require('dotenv').config()
 
@@ -38,7 +37,7 @@ const requestMessage = ( receiver, name, phone, location, vehicleType ) => {
     from: process.env.EMAIL_USER,
     to: receiver,
     subject: 'New appointment request from ' + name,
-    html: `<h2>New appiontment details</h2>
+    html: `<h2>New appointment details</h2>
            <ul>
            <li>Customer name: ${ name }</li>
            <li>Phone Number: ${ phone }</li>
@@ -48,28 +47,29 @@ const requestMessage = ( receiver, name, phone, location, vehicleType ) => {
 `
   }
 }
+
 export default async ( req, res ) => {
   const { contact } = req.body
   const cMessage = customerMessage(contact.email)
   const rMessage = requestMessage('mferrell@diamondluxedetail.com', contact.name, contact.phone,
                                   contact.location, contact.vehicleType)
   try {
-    await transporter.sendMail(cMessage, ( err, info ) => {
+    const customer = await transporter.sendMail(cMessage, ( err, info ) => {
       if (err) {
-        res.error(err)
+        return err
       }
-      res.status(201).json(info)
+      return info
     })
-    await transporter.sendMail(rMessage, ( err, info ) => {
+    const request = await transporter.sendMail(rMessage, ( err, info ) => {
       if (err) {
-        res.status(400).error(err)
+        return err
       }
-      res.status(201).json(info)
+      return info
     })
-  } catch (error) {
-    res.status(400).error(error)
+    res.status(201).json({ message: 'Thank you for submitting your request' })
+  } catch (err) {
+    res.status(500).json({ message: err })
   }
-
-
 }
+
 
