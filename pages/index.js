@@ -11,14 +11,6 @@ export default function Home () {
       <div className={ styles.container }>
         <Head>
           <html lang='en'/>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR8BW1ZEMC"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-
-            gtag('config', 'G-BR8BW1ZEMC');
-          </script>
           <title>Diamond Luxe | Home</title>
           <link rel="preload"/>
           <link rel="icon" href="/favicon.ico"/>
