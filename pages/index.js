@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { useState } from 'react'
 
-import { Hero, Header, Card, Modal, useModal } from '../components/common'
+import { Card, Header, Hero, Modal, useModal } from '../components/common'
 
 import styles from '../styles/Home.module.styl'
 
@@ -12,7 +10,9 @@ export default function Home () {
   return (
       <div className={ styles.container }>
         <Head>
+          <html lang='en'/>
           <title>Diamond Luxe | Home</title>
+          <link rel="preload"/>
           <link rel="icon" href="/favicon.ico"/>
           <link rel="stylesheet" href="https://use.typekit.net/uzk1jip.css"/>
           <meta name="description"
