@@ -11,7 +11,6 @@ export default function Home () {
       <div className={ styles.container }>
         <Head>
           <html lang='en'/>
-          <!-- Global site tag (gtag.js) - Google Analytics -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR8BW1ZEMC"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
