@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diamond-dlux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diamond-dlux.iml" afterDir="false" />
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="fix(style changes and typographical errors): Fixed buttons displaying incorrectly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Modal.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Modal.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Card.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +103,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/Cellar/node/13.8.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -174,7 +168,9 @@
       <workItem from="1606054529165" duration="19378000" />
       <workItem from="1606084678035" duration="2186000" />
       <workItem from="1606086936088" duration="146000" />
-      <workItem from="1606176343880" duration="4813000" />
+      <workItem from="1606176343880" duration="6313000" />
+      <workItem from="1606261054996" duration="1073000" />
+      <workItem from="1606262812330" duration="2666000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -323,7 +319,63 @@
       <option name="project" value="LOCAL" />
       <updated>1606086974991</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="HOTFIX: typos and styling fixes to improve user experience">
+      <created>1606182163984</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606182163984</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix(style changes and typographical errors): Fixed buttons displaying incorrectly">
+      <created>1606182840240</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606182840240</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix(style changes and typographical errors): Fixed buttons displaying incorrectly">
+      <created>1606183016065</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606183016065</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added google analytics gtag to site for tracking purposes">
+      <created>1606261234829</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606261234829</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixed issue with commented line from google analytics">
+      <created>1606261432920</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606261432920</updated>
+    </task>
+    <task id="LOCAL-00027" summary="better google analytics implementation">
+      <created>1606262056398</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606262056398</updated>
+    </task>
+    <task id="LOCAL-00028" summary="better google analytics implementation">
+      <created>1606263462489</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606263462489</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js">
+      <created>1606263712544</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606263712544</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +394,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="initial commit to get started on projects" />
     <MESSAGE value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
     <MESSAGE value="Removed Next.js link on the Header" />
@@ -360,7 +413,12 @@
     <MESSAGE value="fixed a typographical error in stylesheets&#10;&#10;TODO: form submission" />
     <MESSAGE value="fixed a typographical errors and stylesheets&#10;&#10;TODO: form submission" />
     <MESSAGE value="completed the form submission api ready to push to production" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed the form submission api ready to push to production" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="HOTFIX: typos and styling fixes to improve user experience" />
+    <MESSAGE value="Added google analytics gtag to site for tracking purposes" />
+    <MESSAGE value="fixed issue with commented line from google analytics" />
+    <MESSAGE value="better google analytics implementation" />
+    <MESSAGE value="fix(style changes and typographical errors): Fixed buttons displaying incorrectly" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js" />
   </component>
 </project>
