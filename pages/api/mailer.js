@@ -2,6 +2,7 @@ import nodemailer from 'nodemailer'
 
 require('dotenv').config()
 
+const requestAddress = process.env.REQUESTION_ADDRESS
 const transporter = nodemailer.createTransport(
     {
       pool: true,
@@ -51,7 +52,7 @@ const requestMessage = ( receiver, name, phone, location, vehicleType ) => {
 export default async ( req, res ) => {
   const { contact } = req.body
   const cMessage = customerMessage(contact.email)
-  const rMessage = requestMessage('mferrell@diamondluxedetail.com', contact.name, contact.phone,
+  const rMessage = requestMessage(requestAddress, contact.name, contact.phone,
                                   contact.location, contact.vehicleType)
   try {
     const customer = await transporter.sendMail(cMessage, ( err, info ) => {
@@ -71,5 +72,3 @@ export default async ( req, res ) => {
     res.status(500).json({ message: err })
   }
 }
-
-
