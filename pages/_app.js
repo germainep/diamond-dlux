@@ -1,4 +1,5 @@
 import '../styles/globals.styl'
+import LayoutWrapper from '../layout/layoutwrapper';
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../utils/gtag";
@@ -16,7 +17,11 @@ const MyApp = ({ Component, pageProps }) => {
     };
   }, [router.events]);
 
-  return <Component { ...pageProps } />
+  return (
+      <LayoutWrapper {...pageProps}>
+      <Component { ...pageProps } />
+      </LayoutWrapper>
+  )
 }
 
 export default MyApp
