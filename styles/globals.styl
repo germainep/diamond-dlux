@@ -3,9 +3,19 @@ secondary-color = #364b68
 accent-color = #7d1b11
 $shadows = .25rem .50rem .75rem rgba(#555, 90)
 $font-size = 16px
+$h1 = 4.209rem
+
+$h2 = 3.157rem
+
+$h3 = 2.369rem
+
+$h4 = 1.777rem
+
+$h5 = 1.333rem
 
 html,
 body
+  font-size $font-size
   font-display optional
   padding 0
   margin 0
@@ -22,19 +32,19 @@ a
   box-sizing border-box
 
 h1
-  font-size 2.488rem
+  font-size $h1
 
 h2
-  font-size 2.074rem
+  font-size $h2
 
 h3
-  font-size 1.728rem
+  font-size $h3
 
 h4
-  font-size 1.44rem
+  font-size $h4
 
 h5
-  font-size 1.2rem
+  font-size $h5
 
 h1,
 h2,

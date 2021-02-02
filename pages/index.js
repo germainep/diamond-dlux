@@ -20,6 +20,7 @@ const Home = (props) => {
               <Card imagePath='/imgs/Cars.jpeg'
                     alt='Personal vehicles'
                     title="Personal"
+                    price={35}
                     description="We have a package for any level of cleaning you need. Get your daily driver looking like a luxury trailer queen"
                     openModal={ toggleModal }
               />
@@ -28,6 +29,7 @@ const Home = (props) => {
                     alt='Commercial vehicles'
                     title="Commercial"
                     description="Tractor trailers, Box trucks, or any other commercial vehicles we can get it looking brand new!"
+                    price={65}
                     openModal={ toggleModal }
               />
 
@@ -35,6 +37,7 @@ const Home = (props) => {
                     alt="Fleets of vehicles"
                     title="Fleets"
                     description="Contact us about setting up contracting to clean all your vehicles"
+                    price=''
                     openModal={ toggleModal }
               />
             </section>
