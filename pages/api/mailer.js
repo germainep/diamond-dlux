@@ -2,6 +2,7 @@ import nodemailer from 'nodemailer'
 
 require('dotenv').config()
 
+const requestAddress = process.env.REQUESTION_ADDRESS
 const transporter = nodemailer.createTransport(
     {
       pool: true,
@@ -19,6 +20,7 @@ const transporter = nodemailer.createTransport(
       },
       debug: true
     })
+
 const customerMessage = ( receiver ) => {
   return {
     from: process.env.EMAIL_USER,
@@ -71,5 +73,3 @@ export default async ( req, res ) => {
     res.status(500).json({ message: err })
   }
 }
-
-

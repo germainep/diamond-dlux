@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="fix(style changes and typographical errors): Fixed buttons displaying incorrectly">
+      <change afterPath="$PROJECT_DIR$/components/common/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Card.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +87,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.0.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.0.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="15.0.1" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="js.ns.project" value="true" />
     <property name="js.ns.project.flavor" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stlint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/Cellar/node/13.8.0/bin/node" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -97,6 +103,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stlint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -171,6 +178,18 @@
       <workItem from="1606176343880" duration="6313000" />
       <workItem from="1606261054996" duration="1073000" />
       <workItem from="1606262812330" duration="2666000" />
+      <workItem from="1612212818597" duration="11819000" />
+      <workItem from="1612228946080" duration="97000" />
+      <workItem from="1612398021401" duration="75000" />
+      <workItem from="1612404295437" duration="81000" />
+      <workItem from="1612838266035" duration="878000" />
+      <workItem from="1612905717788" duration="24000" />
+      <workItem from="1612905822541" duration="38000" />
+      <workItem from="1614370498948" duration="822000" />
+      <workItem from="1614524575656" duration="8231000" />
+      <workItem from="1620085770189" duration="128000" />
+      <workItem from="1620085986536" duration="7491000" />
+      <workItem from="1621894170477" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -375,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606263712544</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="FIX_update_to_env_variables&#10;&#10;Changed requester email to use env variables to make testing easier.">
+      <created>1612215145357</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612215145357</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix(layout)&#10;&#10;moved the header and footer to a layout to be used on multiple pages in the future.">
+      <created>1612219704433</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612219704433</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +452,9 @@
     <MESSAGE value="better google analytics implementation" />
     <MESSAGE value="fix(style changes and typographical errors): Fixed buttons displaying incorrectly" />
     <MESSAGE value="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js" />
+    <MESSAGE value="FIX_update_to_env_variables&#10;&#10;Changed requester email to use env variables to make testing easier." />
+    <MESSAGE value="fix(layout)&#10;&#10;moved the header and footer to a layout to be used on multiple pages in the future." />
+    <MESSAGE value="Fix(pricing)&#10;&#10;Adding starting pricing to the product card." />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js" />
   </component>
 </project>

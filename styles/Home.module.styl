@@ -10,6 +10,23 @@
   max-width 80vw
   margin 15px auto
 
+.btn
+  &:hover,
+  &:focus,
+  &:active
+    color primary-color
+    border-color accent-color
+  background radial-gradient(circle at 50%, primary-color 10%, tint(primary-color, 2) 25%, lighten(primary-color, 20) 75%, darken(primary-color, 2) 100%);
+  font-weight 800
+  border-radius .25rem
+  padding .25em
+  color white
+  text-align center
+  text-shadow $shadows
+  box-shadow $shadows
+  height: 3em
+
+
 .footer
   width: 100%
   height: 100px
@@ -63,4 +80,3 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-

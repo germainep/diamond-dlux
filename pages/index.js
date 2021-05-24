@@ -49,6 +49,7 @@ export default function Home () {
                   description="Contact us about setting up contracting to clean all your vehicles"
                   openModal={ toggleModal }
             />
+            <a className={styles.btn} href='https://orbisx.ca/app/book-online/VSSlM'>Book an Appointment</a>
           </section>
 
         </main>

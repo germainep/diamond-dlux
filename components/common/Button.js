@@ -10,4 +10,4 @@ const Button = ( props ) => {
 }
 
 export default Button
-//TODO: decide what need to go into the button componet
+//TODO: decide what need to go into the button component

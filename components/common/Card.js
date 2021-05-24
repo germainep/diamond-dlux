@@ -19,7 +19,6 @@ const Card = ( props ) => {
           <h3>{ props.title }</h3>
           <p>{ props.description }</p>
         </div>
-        <Button onClick={ props.openModal } text='Schedule An Appointment'/>
       </div>
   )
 }
