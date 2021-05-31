@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="fix(style changes and typographical errors): Fixed buttons displaying incorrectly">
-      <change afterPath="$PROJECT_DIR$/components/common/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="feauture:  book now link update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Card.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612219704433</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feauture:  book now link update">
+      <created>1621899116615</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621899116615</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="initial commit to get started on projects" />
     <MESSAGE value="Under Construction Message placed on page &#10;&#10;created a placehold for the page" />
     <MESSAGE value="Removed Next.js link on the Header" />
     <MESSAGE value="Removed files from git that were not needed" />
@@ -455,6 +453,7 @@
     <MESSAGE value="FIX_update_to_env_variables&#10;&#10;Changed requester email to use env variables to make testing easier." />
     <MESSAGE value="fix(layout)&#10;&#10;moved the header and footer to a layout to be used on multiple pages in the future." />
     <MESSAGE value="Fix(pricing)&#10;&#10;Adding starting pricing to the product card." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/develop' into develop&#10;&#10;# Conflicts:&#10;#&#9;pages/_app.js&#10;#&#9;pages/_document.js" />
+    <MESSAGE value="feauture:  book now link update" />
+    <option name="LAST_COMMIT_MESSAGE" value="feauture:  book now link update" />
   </component>
 </project>
