@@ -1,9 +1,14 @@
-import styles from '../../styles/Hero.module.styl'
+import { Image } from '@chakra-ui/react'
 
 const Hero = () => {
   return (
-      <section className={ styles.heroContainer }>
-      </section>
+    <Image
+      w='100%'
+      src='/imgs/Option_04.jpg'
+      fit='cover'
+      h='50vh'
+      alt='Diamond Luxe hero'
+    />
   )
 }
 
