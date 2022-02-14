@@ -1,21 +1,26 @@
-const withStylus = require('@zeit/next-stylus')
 const withPlugins = require('next-compose-plugins')
 const withOffline = require('next-offline')
 const withSourceMaps = require('@zeit/next-source-maps')
+const withMDX = require('@next/mdx')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-                                                              enabled: process.env.ANALYZE === 'true',
-                                                            })
+  enabled: process.env.ANALYZE === 'true',
+})
+module.exports = {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Important: return the modified config
+    config.module.rules.push({
+      type: 'javascript/auto',
+      test: /\.mjs$/,
+      use: [],
+    })
 
-const nextConfig = {}
+    return config
+  },
+}
 
-module.exports = withPlugins(
-    [ [ withSourceMaps(withOffline(withBundleAnalyzer({ devtool: 'hidden-source-map', }))) ],
-      [ withStylus({
-                     cssModules: true,
-                     cssLoaderOptions: {
-                       localIdentName: '[name].[local]_[hash:base64:5]',
-                     },
-                   }
-      ) ]
-    ], nextConfig)
+module.exports = withPlugins([
+  [withBundleAnalyzer],
+  [withMDX],
+  [withSourceMaps],
+])

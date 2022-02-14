@@ -1,29 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
-import Button from '../common/Button'
-import styles from '../../styles/Card.module.styl'
+import { Box, Center, Heading, Text, useStyleConfig } from '@chakra-ui/react'
 
-const Card = ( props ) => {
+const Card = (props) => {
+  const { variant, ...rest } = props
+  const styles = useStyleConfig('Card', { variant })
   return (
-      <div className={ styles.card }>
-        <div className={ styles.imageContainer }>
-          <Image
-              layout='fill'
-              src={ props.imagePath }
-              alt={ props.alt }
-              width={ 621 }
-              height={ 350 }
-          />
-        </div>
-        <div className={ styles.textBox }>
-          <h3>{ props.title }</h3>
-          <p>{ props.description }</p>
-        </div>
-        <div>
-          {props.price ? <><p className={styles.center}>Starting at </p><p className={styles.price}>${ props.price}</p></> : <><p className={styles.center}>Contact us for contract pricing.</p><p className={styles.price}>{ props.price}</p></>}
-        </div>
-        <Button onClick={ props.openModal } text='Schedule An Appointment'/>
-      </div>
+    <Box __css={styles} {...rest} maxW={'400'} minW={'300'}>
+      <Center>
+        <Image
+          width='200px'
+          height='100%'
+          src={props.imagepath}
+          alt={props.alt}
+        />
+      </Center>
+      <Box>
+        <Heading as='h2' size='lg'>
+          {props.title}
+        </Heading>
+        <Text as='p' size='md'>
+          {props.description}
+        </Text>
+      </Box>
+    </Box>
   )
 }
 
