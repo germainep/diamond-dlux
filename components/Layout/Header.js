@@ -1,7 +1,7 @@
 import NextLink from 'next/link'
 import { Center, Link } from '@chakra-ui/react'
 import Logo from '../common/Logo/Logo'
-import { Box, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
 const Header = () => {
   return (

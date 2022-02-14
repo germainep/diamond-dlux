@@ -3,7 +3,6 @@ import {
   ModalOverlay,
   ModalContent,
   ModalCloseButton,
-  AspectRatio,
   ModalFooter,
   ModalBody,
 } from '@chakra-ui/react'

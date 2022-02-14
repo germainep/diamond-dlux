@@ -5,7 +5,6 @@ import ScheduleForm from '../components/common/Modal/ScheduleForm'
 import {
   Box,
   Button,
-  Center,
   Container,
   Flex,
   Grid,
