@@ -4,7 +4,6 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 
 import '@fontsource/quicksand'
 import '@fontsource/arvo'
->>>>>>>>> Temporary merge branch 2
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter()
