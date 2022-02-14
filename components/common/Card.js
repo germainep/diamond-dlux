@@ -13,7 +13,7 @@ const Card = (props) => {
   const { variant, ...rest } = props
   const styles = useStyleConfig('Card', { variant })
   return (
-    <Box __css={styles} {...rest}>
+    <Box __css={styles} {...rest} maxW={'400'} minW={'300'}>
       <Center>
         <Image
           width='200px'
