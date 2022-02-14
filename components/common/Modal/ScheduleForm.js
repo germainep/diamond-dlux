@@ -13,18 +13,15 @@ const ScheduleModal = ({ isOpen, onClose, finalFocusRef }) => {
     <>
       <Modal finalFocusRef={finalFocusRef} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent h='80%' w='90%'>
           <ModalBody
             dangerouslySetInnerHTML={{
               __html: `<iframe
               src='https://orbisx.ca/app/booknow/VSSlM'
-              style='border:0px #ffffff none; max-width:2000px;'
+              style='width: 100%; height: 100%'
               name='OrbisXbookingForm'
-              scrolling='yes'
-              frameBorder='0'
-              marginHeight='0px'
-              marginWidth='0px'
-              sandbox=''
+              sandbox='allow-scripts allow-forms'
+              allowFullscreen
           />`,
             }}
           />

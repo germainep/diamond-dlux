@@ -4,29 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="feauture:  book now link update">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Layout/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Layout/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Modal/Modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Modal/useModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gtag.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gtag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/mailer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/gtag.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gtag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Header.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Hero.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Modal.module.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="1j9sjn5ApOIMIjfcihAVLNHVuhP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -99,23 +86,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/opt/homebrew/lib/node_modules/prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/germainepannell/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.3427.92/WebStorm 2022.1 EAP.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/opt/homebrew/lib/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/germainepannell/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.3427.92/WebStorm 2022.1 EAP.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -235,7 +224,8 @@
       <workItem from="1644446126288" duration="26914000" />
       <workItem from="1644588189608" duration="178000" />
       <workItem from="1644588376329" duration="169000" />
-      <workItem from="1644588741625" duration="6919000" />
+      <workItem from="1644588741625" duration="7828000" />
+      <workItem from="1644872262460" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -496,7 +486,49 @@
       <option name="project" value="LOCAL" />
       <updated>1644595799856</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=":recycle: refactor(UI): moved Header into Layout&#10;&#10;Moved Header Component into the Layout Folder to have all Layout Component in the same folder">
+      <created>1644595931470</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1644595931470</updated>
+    </task>
+    <task id="LOCAL-00039" summary="updated google analytics implementation.">
+      <created>1644595997571</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1644595997571</updated>
+    </task>
+    <task id="LOCAL-00040" summary=":lipstick: refactor(UI): Refactored the UI with ChakraUI&#10;&#10;Added ChakraUI for easier management of the UI">
+      <created>1644596125215</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596125215</updated>
+    </task>
+    <task id="LOCAL-00041" summary=":technologist: chore: added eslint and prettier configs">
+      <created>1644596313415</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596313415</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat(UI): adjusted the cards to be responsive">
+      <created>1644875668825</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1644875668825</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat(UI): completed basic steps to move to Chakra UI &#10;&#10;this change should make future UI update simpler.">
+      <created>1644875879638</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644875879638</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,12 +549,6 @@
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Basic setup for the header &#10;&#10;moved next config to the correct place" />
-    <MESSAGE value="Setup global styles for primary colors.&#10;&#10;Styled the header and and the background for the Hero section" />
-    <MESSAGE value="added the logo svg and favicon for the page." />
-    <MESSAGE value="Completed the header." />
-    <MESSAGE value="Daily Commit.&#10;&#10;completed the hero and intro section started on the product cards section" />
-    <MESSAGE value="Daily Commit.&#10;&#10;completed the card section except for the copy for each card" />
     <MESSAGE value="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons" />
     <MESSAGE value="Modal implementation completed" />
     <MESSAGE value="Completed styling and form &#10;&#10;TODO: form submission" />
@@ -544,7 +570,13 @@
     <MESSAGE value="feature(ui): moved Scheduling into a modal&#10;&#10;moved the scheduler into a modal but it still needs to be tested in the dev environment" />
     <MESSAGE value="feat(UI): setup a layout&#10;&#10;Setup a layout to provide the header and footer to all pages. This will make is easier to expand the site in the future." />
     <MESSAGE value=":wastebasket: chore(UI): Cleaning up extra code&#10;&#10;Cleaning up code for things that got deleted and refactored." />
-    <option name="LAST_COMMIT_MESSAGE" value=":wastebasket: chore(UI): Cleaning up extra code&#10;&#10;Cleaning up code for things that got deleted and refactored." />
+    <MESSAGE value=":recycle: refactor(UI): moved Header into Layout&#10;&#10;Moved Header Component into the Layout Folder to have all Layout Component in the same folder" />
+    <MESSAGE value="updated google analytics implementation." />
+    <MESSAGE value=":lipstick: refactor(UI): Refactored the UI with ChakraUI&#10;&#10;Added ChakraUI for easier management of the UI" />
+    <MESSAGE value=":technologist: chore: added eslint and prettier configs" />
+    <MESSAGE value="feat(UI): adjusted the cards to be responsive" />
+    <MESSAGE value="feat(UI): completed basic steps to move to Chakra UI &#10;&#10;this change should make future UI update simpler." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(UI): completed basic steps to move to Chakra UI &#10;&#10;this change should make future UI update simpler." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

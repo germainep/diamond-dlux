@@ -6,6 +6,7 @@ import {
   Box,
   Button,
   Center,
+  Container,
   Flex,
   Grid,
   Heading,
@@ -20,21 +21,26 @@ export default function Home() {
   return (
     <Box>
       <Hero />
-      <Flex direction='column' gap={32} ref={finalRef}>
-        <Box>
-          <Heading as='h1' size='2xl' textAlign={'center'}>
+      <Flex
+        direction='column'
+        gap={16}
+        ref={finalRef}
+        justifyContent='center'
+        alignItems='center'
+      >
+        <Container maxW='90%'>
+          <Heading as='h1' mt={16} size='2xl' textAlign={'center'}>
             Great detailing where and when you need it
           </Heading>
-          <Heading as='h2' size='lg' textAlign={'center'}>
+          <Heading as='h2' mt={16} size='lg' textAlign={'center'}>
             Check out how we will can put the luxe back into your daily driver!!
           </Heading>
-        </Box>
+        </Container>
         <Grid
           as={'section'}
-          templateColumns='repeat(3, 1fr)'
-          justify={'space-around'}
-          p={8}
-          my={5}
+          templateColumns={{ md: '1fr', lg: 'repeat(3, 1fr)' }}
+          justify={'space-between'}
+          p={16}
           gap={6}
         >
           <Card

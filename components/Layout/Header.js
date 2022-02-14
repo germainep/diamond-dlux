@@ -10,7 +10,7 @@ const Header = () => {
         <Logo width={100} />
       </Center>
 
-      <Center>
+      <Center as='nav'>
         <NextLink href='/about' passHref>
           <Link color='white' fontWeight='bolder' textDecoration='none'>
             About Us

@@ -1,13 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {
-  Box,
-  Center,
-  Flex,
-  Heading,
-  Text,
-  useStyleConfig,
-} from '@chakra-ui/react'
+import { Box, Center, Heading, Text, useStyleConfig } from '@chakra-ui/react'
 
 const Card = (props) => {
   const { variant, ...rest } = props
