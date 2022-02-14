@@ -61,7 +61,6 @@ const MyApp = ({ Component, pageProps }) => {
     },
   })
 
-<<<<<<<<< Temporary merge branch 1
   useEffect(() => {
     const handleRouteChange = (url) => {
       gtag.pageview(url);
