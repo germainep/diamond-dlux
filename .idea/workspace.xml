@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0211ab4e-0ba6-40dc-903c-6be5c14cf7f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Card.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Header.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Hero.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Modal.module.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +217,7 @@
       <workItem from="1644588189608" duration="178000" />
       <workItem from="1644588376329" duration="169000" />
       <workItem from="1644588741625" duration="7828000" />
-      <workItem from="1644872262460" duration="3696000" />
+      <workItem from="1644872262460" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="Under Construction Message placed on page &#10;&#10;created a placehold for the page">
       <created>1603237214048</created>
@@ -528,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644875879638</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="feat(UI): completed basic steps to move to Chakra UI&#10;&#10;this change should make future UI update simpler.">
+      <created>1644876064714</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1644876064714</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +548,6 @@
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Made changes to the header then started implementing the modal. &#10;&#10;Started on a component for site wide buttons" />
     <MESSAGE value="Modal implementation completed" />
     <MESSAGE value="Completed styling and form &#10;&#10;TODO: form submission" />
     <MESSAGE value="fixed a typographical error in stylesheets&#10;&#10;TODO: form submission" />
@@ -576,7 +574,8 @@
     <MESSAGE value=":technologist: chore: added eslint and prettier configs" />
     <MESSAGE value="feat(UI): adjusted the cards to be responsive" />
     <MESSAGE value="feat(UI): completed basic steps to move to Chakra UI &#10;&#10;this change should make future UI update simpler." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(UI): completed basic steps to move to Chakra UI &#10;&#10;this change should make future UI update simpler." />
+    <MESSAGE value="feat(UI): completed basic steps to move to Chakra UI&#10;&#10;this change should make future UI update simpler." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(UI): completed basic steps to move to Chakra UI&#10;&#10;this change should make future UI update simpler." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
