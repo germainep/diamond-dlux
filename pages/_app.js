@@ -61,16 +61,15 @@ const MyApp = ({ Component, pageProps }) => {
     },
   })
 
-<<<<<<<<< Temporary merge branch 1
   useEffect(() => {
     const handleRouteChange = (url) => {
-      gtag.pageview(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
 
   return (
     <ChakraProvider resetCss theme={theme}>
