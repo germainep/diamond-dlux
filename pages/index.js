@@ -1,61 +1,89 @@
-import Head from 'next/head'
+import { useRef } from 'react'
+import Card from '../components/common/Card'
+import Hero from '../components/common/Hero'
+import ScheduleForm from '../components/common/Modal/ScheduleForm'
+import {
+  Box,
+  Button,
+  Container,
+  Flex,
+  Grid,
+  Heading,
+  useDisclosure,
+} from '@chakra-ui/react'
+import Layout from '../components/Layout/Layout'
+import Header from '../components/Layout/Header'
+import Footer from '../components/Layout/Footer'
 
-import { Card, Header, Hero, Modal, useModal } from '../components/common'
-
-import styles from '../styles/Home.module.styl'
-
-export default function Home () {
-  const { isVisible, toggleModal } = useModal()
-
+export default function Home() {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const finalRef = useRef()
   return (
-      <div className={ styles.container }>
-        <Head>
-          <html lang='en'/>
-          <title>Diamond Luxe | Home</title>
-          <link rel="preload"/>
-          <link rel="icon" href="/favicon.ico"/>
-          <link rel="stylesheet" href="https://use.typekit.net/uzk1jip.css"/>
-          <meta name="description"
-                content="Diamond Luxe Mobile Detailing. Cars, Trucks, SUV, Tractor Trailers, and Fleet vehicles. Get you vehicle washed when and where you want. Now serving: Siler City, Asheboro, Greensbor Triad, and Danville, VA."/>
-          <meta name="keywords" content="Mobile Car Washing, Tractor Trailer Washing"/>
-        </Head>
-
-        <Header/>
-        <Hero/>
-
-        <main className={ styles.main }>
-          <h1 className={ styles.title }>
+    <Box>
+      <Hero />
+      <Flex
+        direction='column'
+        gap={16}
+        ref={finalRef}
+        justifyContent='center'
+        alignItems='center'
+      >
+        <Container maxW='90%'>
+          <Heading as='h1' mt={16} size='2xl' textAlign={'center'}>
             Great detailing where and when you need it
-          </h1>
-          <h2 className={ styles.description}>Check out how we will can put the luxe back into your daily driver!!</h2>
-          <section className={ styles.grid }>
-            <Card imagePath='/imgs/Cars.jpeg'
-                  alt='Personal vehicles'
-                  title="Personal"
-                  description="We have a package for any level of cleaning you need. Get your daily driver looking like a luxury trailer queen"
-                  openModal={ toggleModal }
-            />
+          </Heading>
+          <Heading as='h2' mt={16} size='lg' textAlign={'center'}>
+            Check out how we can put the luxe back into your daily driver!!
+          </Heading>
+        </Container>
+        <Grid
+          as={'section'}
+          templateColumns={{ md: '1fr', lg: 'repeat(3, 1fr)' }}
+          justify={'space-between'}
+          p={16}
+          gap={6}
+        >
+          <Card
+            imagepath='/imgs/Cars.jpeg'
+            alt='Personal vehicles'
+            title='Personal'
+            description='We have a package for all your detailing needs. Have your daily driver look like a luxury trailer queen'
+          />
 
-            <Card imagePath='/imgs/Commercial.jpeg'
-                  alt='Commercial vehicles'
-                  title="Commercial"
-                  description="Tractor trailers, Box trucks, or any other commercial vehicles we can get it looking brand new!"
-                  openModal={ toggleModal }
-            />
+          <Card
+            imagepath='/imgs/Commercial.jpeg'
+            alt='Commercial vehicles'
+            title='Commercial'
+            description='Tractor trailers, Box trucks, or any commercial vehicle we can get it looking brand new!'
+          />
 
-            <Card imagePath='/imgs/Fleet.jpg'
-                  alt="Fleets of vehicles"
-                  title="Fleets"
-                  description="Contact us about setting up contracting to clean all your vehicles"
-                  openModal={ toggleModal }
-            />
-            <a className={styles.btn} href='https://orbisx.ca/app/book-online/VSSlM'>Book an Appointment</a>
-          </section>
+          <Card
+            imagepath='/imgs/Fleet.jpg'
+            alt='Fleets of vehicles'
+            title='Fleets'
+            description='Contact us about scheduling regular detailing for every vehicle in your fleet'
+          />
+        </Grid>
+        <Button alignSelf={'center'} onClick={onOpen}>
+          Book an Appointment
+        </Button>
+      </Flex>
+      <footer></footer>
+      <ScheduleForm
+        isOpen={isOpen}
+        onClose={onClose}
+        finalFocusRef={finalRef}
+      />
+    </Box>
+  )
+}
 
-        </main>
-        <footer className={ styles.footer }>
-        </footer>
-        <Modal isVisible={ isVisible } hideModal={ toggleModal }/>
-      </div>
+Home.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      <Header />
+      {page}
+      <Footer />
+    </Layout>
   )
 }
