@@ -13,6 +13,7 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../components/Layout/Layout'
 import Header from '../components/Layout/Header'
+import Footer from '../components/Layout/Footer'
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -32,7 +33,7 @@ export default function Home() {
             Great detailing where and when you need it
           </Heading>
           <Heading as='h2' mt={16} size='lg' textAlign={'center'}>
-            Check out how we will can put the luxe back into your daily driver!!
+            Check out how we can put the luxe back into your daily driver!!
           </Heading>
         </Container>
         <Grid
@@ -46,21 +47,21 @@ export default function Home() {
             imagepath='/imgs/Cars.jpeg'
             alt='Personal vehicles'
             title='Personal'
-            description='We have a package for any level of cleaning you need. Get your daily driver looking like a luxury trailer queen'
+            description='We have a package for all your detailing needs. Have your daily driver look like a luxury trailer queen'
           />
 
           <Card
             imagepath='/imgs/Commercial.jpeg'
             alt='Commercial vehicles'
             title='Commercial'
-            description='Tractor trailers, Box trucks, or any other commercial vehicles we can get it looking brand new!'
+            description='Tractor trailers, Box trucks, or any commercial vehicle we can get it looking brand new!'
           />
 
           <Card
             imagepath='/imgs/Fleet.jpg'
             alt='Fleets of vehicles'
             title='Fleets'
-            description='Contact us about setting up contracting to clean all your vehicles'
+            description='Contact us about scheduling regular detailing for every vehicle in your fleet'
           />
         </Grid>
         <Button alignSelf={'center'} onClick={onOpen}>
@@ -82,6 +83,7 @@ Home.getLayout = function getLayout(page) {
     <Layout>
       <Header />
       {page}
+      <Footer />
     </Layout>
   )
 }

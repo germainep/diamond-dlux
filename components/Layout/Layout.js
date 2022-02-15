@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { GA_TRACKING_ID } from '../../utils/gtag'
 
 const Layout = ({ children }) => {
   return (
@@ -20,6 +21,14 @@ const Layout = ({ children }) => {
         />
       </Head>
       {children}
+      <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=${GA_TRACKING_ID}`}
+          height='0'
+          width='0'
+          style={{ display: 'none', visibility: 'hidden' }}
+        />
+      </noscript>
     </>
   )
 }

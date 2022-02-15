@@ -6,7 +6,7 @@ const Card = (props) => {
   const { variant, ...rest } = props
   const styles = useStyleConfig('Card', { variant })
   return (
-    <Box __css={styles} {...rest} maxW={'400'} minW={'300'}>
+    <Box __css={styles} {...rest} maxW={'400'}>
       <Center>
         <Image
           width='200px'
@@ -16,7 +16,7 @@ const Card = (props) => {
         />
       </Center>
       <Box>
-        <Heading as='h2' size='lg'>
+        <Heading as='h3' size='lg'>
           {props.title}
         </Heading>
         <Text as='p' size='md'>
