@@ -2,6 +2,8 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 
+import gtag from '../utils/gtag'
+
 import '@fontsource/quicksand'
 import '@fontsource/arvo'
 
@@ -29,14 +31,20 @@ const MyApp = ({ Component, pageProps }) => {
       },
       Button: {
         baseStyle: {
-          fontWeight: 'bolder',
+          fontWeight: 'extrabold',
           borderRadius: 'base',
           p: 6,
+          boxShadow: 'lg',
         },
         variants: {
           solid: {
             bg: 'primary',
             color: 'white',
+            _hover: {
+              bg: 'secondary',
+              color: 'white',
+              boxShadow: '2xl',
+            },
           },
         },
       },
@@ -53,23 +61,23 @@ const MyApp = ({ Component, pageProps }) => {
           boxShadow: 'xl',
         },
       },
-    },
-    headings: {
-      baseStyle: {
-        letterSpacing: 'tight',
+      headings: {
+        baseStyle: {
+          letterSpacing: 'tight',
+        },
       },
     },
   })
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      gtag.pageview(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
 
   return (
     <ChakraProvider resetCss theme={theme}>
