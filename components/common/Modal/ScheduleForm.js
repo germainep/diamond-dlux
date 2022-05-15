@@ -6,6 +6,7 @@ import {
   ModalFooter,
   ModalBody,
 } from '@chakra-ui/react'
+import { useEffect, useRef } from 'react'
 
 const ScheduleModal = ({ isOpen, onClose, finalFocusRef }) => {
   return (
@@ -13,17 +14,7 @@ const ScheduleModal = ({ isOpen, onClose, finalFocusRef }) => {
       <Modal finalFocusRef={finalFocusRef} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent h='80%' w='90%'>
-          <ModalBody
-            dangerouslySetInnerHTML={{
-              __html: `<iframe
-              src='https://orbisx.ca/app/booknow/VSSlM'
-              style='width: 100%; height: 100%'
-              name='OrbisXbookingForm'
-              sandbox='allow-scripts allow-forms'
-              allowFullscreen
-          />`,
-            }}
-          />
+          <ModalBody></ModalBody>
           <ModalFooter>
             <ModalCloseButton onClick={onClose} />
           </ModalFooter>
