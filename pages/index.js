@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import Card from '../components/common/Card'
 import Hero from '../components/common/Hero'
 import ScheduleForm from '../components/common/Modal/ScheduleForm'
@@ -9,6 +9,8 @@ import {
   Flex,
   Grid,
   Heading,
+  Link,
+  LinkOverlay,
   useDisclosure,
 } from '@chakra-ui/react'
 import Layout from '../components/Layout/Layout'
@@ -18,6 +20,7 @@ import Footer from '../components/Layout/Footer'
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const finalRef = useRef()
+
   return (
     <Box>
       <Hero />
@@ -61,19 +64,27 @@ export default function Home() {
             imagepath='/imgs/Fleet.jpg'
             alt='Fleets of vehicles'
             title='Fleets'
-            description='Contact us about scheduling regular detailing for every vehicle in your fleet'
+            description='Contact us to schedule regular detailing for your entire fleet'
           />
         </Grid>
-        <Button alignSelf={'center'} onClick={onOpen}>
+        <Button
+          alignSelf={'center'}
+          href='https://squareup.com/appointments/book/ag0h2k4wvhcmns/LCSHA9GGSD16Z/start'
+          isExternal={true}
+        >
+          <LinkOverlay
+            href='https://squareup.com/appointments/book/ag0h2k4wvhcmns/LCSHA9GGSD16Z/start'
+            isExternal={true}
+          ></LinkOverlay>
           Book an Appointment
         </Button>
       </Flex>
       <footer></footer>
-      <ScheduleForm
-        isOpen={isOpen}
-        onClose={onClose}
-        finalFocusRef={finalRef}
-      />
+      {/*<ScheduleForm*/}
+      {/*  isOpen={isOpen}*/}
+      {/*  onClose={onClose}*/}
+      {/*  finalFocusRef={finalRef}*/}
+      {/*/>*/}
     </Box>
   )
 }

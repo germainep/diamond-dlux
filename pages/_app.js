@@ -27,6 +27,21 @@ const MyApp = ({ Component, pageProps }) => {
             color: 'accent',
             textDecoration: 'none',
           },
+          variants: {
+            button: {
+              bg: 'primary',
+              color: 'white',
+              fontWeight: 'extrabold',
+              borderRadius: 'base',
+              p: 6,
+              boxShadow: 'lg',
+              _hover: {
+                bg: 'secondary',
+                color: 'white',
+                boxShadow: '2xl',
+              },
+            },
+          },
         },
       },
       Button: {
